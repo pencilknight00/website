@@ -1,14 +1,16 @@
  body {
+    display: block;
     background-color: #42a5f5;
 }
 html,
 body {
-  height: 50%;
+    display: block;
+  height: 33%;
   width: 100%;
 }
 
 div {
-  height: 120%;
+  height: 100%;
   width: 100%;
 
 }
@@ -21,7 +23,7 @@ div {
 }
 
 
-.header{
+div.header{
     font-family: 'Josefin Sans', sans-serif;
     color: #424242;
     font-size: 80px;
@@ -63,19 +65,12 @@ li.options {
     text-decoration: none;
 }
 #welcome{
-    width:5cm ;
-    height: 5cm;
-    position: absolute;
-    left: 230px;
-    top: 390px;
-    margin: 10px;
+    width:4cm ;
+    height: 4cm;
+
+    margin: 30px;
 }
-h4{
-    position: absolute;
-    left: 480px;
-    top: 480px;
-    font-size:x-large;
-}
+
 ul.topic{
     margin: 30px; 
     text-align: left; 
@@ -84,3 +79,4 @@ ul.topic{
     top: 820px;
     line-height: 30px; 
 }
+
